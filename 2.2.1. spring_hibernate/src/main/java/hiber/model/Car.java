@@ -25,11 +25,20 @@ public class Car {
         this.model = model;
         this.series = series;
     }
-    public String getMode() {
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public String getModel() {
         return model;
     }
 
-    public void setMode(String model) {
+    public void setModel(String model) {
         this.model = model;
     }
 
